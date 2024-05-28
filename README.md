@@ -18,8 +18,7 @@ Discover 是基于开发语言 `PHP7.3`，`Laravel` 框架开发。项目中采�
 * 执行 `composer install`  
 * 将 `.env.example` 复制重命名为 `.env`, 并在 `.env` 设置数据库账号密码等信息。
 * 执行 `php artisan migrate` 生成表结构。
-* 执行 `php artisan db:seed --class=InitSeeder` 初始化数据库。或者 php artisan db:seed
-* 执行 `php artisan key:generate` 生成密钥。
+* 执行 `php artisan migrate:refresh --seed 覆盖
 
 ### 1.3 技术交流
 
